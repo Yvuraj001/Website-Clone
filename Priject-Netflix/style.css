@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-    height: 63vh;
+    height: 395px;
     width: 100%;
     background-image: url(Assets/background.jpg);
     background-position: center center;
@@ -26,7 +26,7 @@ body {
 }
 
 .box {
-    height: 65vh;
+    height: 395px;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -169,7 +169,7 @@ nav img {
     color: white;
     justify-content: center;
     align-items: center;
-     
+         height: 645px;
     max-width: 80vw;
     margin: auto;
     
@@ -227,10 +227,7 @@ nav img {
 }
 
 
-.second-text{
-    /* max-width: 90vw; */
-     
-}
+ 
 .second-image img{
    
     height: 420px;
@@ -243,7 +240,7 @@ nav img {
  
  .second{
     display: flex;
-    max-height: 90vh;
+    max-height: 465px;
  }
  
 .second-text div{
@@ -283,7 +280,7 @@ option ::selection{
     background-color:  rgba(27, 26, 26, 0.377);;
 }
 .last{
-   
+   height: 465px;
     max-width: 80vw;
 }
 .last .text{
@@ -297,7 +294,7 @@ option ::selection{
  
 .line-1{
    
-    margin-top: -175px; /* Adjust as needed */
+    margin-top: -175px;  
 }
 
 
@@ -377,74 +374,6 @@ footer{
 }
 .quest{
     padding: 23px 0;
-}
-@media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    max-width: 90vw;
-    padding-top: 10px;
-  }
-
-  .hero > :first-child {
-    font-size: 32px;
-  }
-
-  .hero > :nth-child(2),
-  .hero > :nth-child(3) {
-    font-size: 16px;
-  }
-
-  .hero-btn {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .main input {
-    padding: 10px 14px;
-    width: 80vw;
-  }
-
-  .first,
-  .second,
-  .last {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .secdata img,
-  .secdata video,
-  .secdata-1 img,
-  .second-image img {
-    width: 90vw;
-    height: auto;
-    margin-left: 0;
-  }
-
-  .text > :nth-child(1),
-  .second-text span {
-    font-size: 28px;
-  }
-
-  .meow {
-    font-size: 14px;
-  }
-
-  .footer {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .faqbox {
-    max-width: 90vw;
-    font-size: 16px;
-    padding: 15px;
-  }
-
-  .faq h2 {
-    font-size: 30px;
-  }
-}
+} 
 
 
